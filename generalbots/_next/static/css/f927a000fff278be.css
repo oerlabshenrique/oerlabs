@@ -1,0 +1,309 @@
+.header_header__nnHgx {
+    background-color: var(--white);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0
+}
+
+    .header_header__nnHgx .container {
+        display: grid;
+        grid-template-columns: minmax(auto,1fr) minmax(auto,2fr);
+        justify-content: space-between;
+        align-items: center;
+        grid-gap: 40px;
+        gap: 40px
+    }
+
+.header_logo__0CHou {
+    padding: 10px 0;
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1;
+    font-family: Ubuntu,Segoe UI,system-ui,sans-serif;
+    color: var(--black);
+    justify-self: start;
+    white-space: nowrap
+}
+
+.header_navigation__S_dsk {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px
+}
+
+.header_centralized__qYy_k {
+    display: flex;
+    gap: 16px;
+    justify-self: center
+}
+
+.header_link__JrKa3 {
+    display: block;
+    color: var(--neutral-500);
+    font-family: Roboto,Segoe UI,system-ui,sans-serif;
+    padding: 12px 0;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 500;
+    justify-self: end;
+    white-space: nowrap
+}
+
+.header_mobile_menu__LYZHr {
+    display: none;
+    padding: 8px;
+    border: none
+}
+
+    .header_mobile_menu__LYZHr .bi {
+        font-size: 1.5rem;
+        line-height: 1
+    }
+
+    .header_mobile_menu__LYZHr .bi-list:before, .header_mobile_menu__LYZHr .bi-x-lg:before {
+        display: block
+    }
+
+@media (max-width:640px) {
+    .header_header__nnHgx .container {
+        grid-template-columns: auto auto
+    }
+
+    .header_outside_handler__NebqQ {
+        display: none
+    }
+
+        .header_outside_handler__NebqQ.active {
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end;
+            background-color: rgba(0,0,0,.25)
+        }
+
+    .header_navigation__S_dsk {
+        background-color: var(--black);
+        width: clamp(20px,200px,50%);
+        padding: 84px 20px 20px
+    }
+
+        .header_navigation__S_dsk, .header_navigation__S_dsk .header_centralized__qYy_k {
+            display: grid;
+            align-content: start
+        }
+
+    .header_link__JrKa3 {
+        justify-self: unset;
+        color: var(--neutral-300)
+    }
+
+    .header_mobile_menu__LYZHr {
+        display: block;
+        position: relative
+    }
+}
+
+.home_draw__uVpMo .container {
+    display: grid;
+    min-height: 536px
+}
+
+.home_draw__content__DQmsE {
+    align-self: center;
+    max-width: 560px
+}
+
+.home_draw__title__16rTW {
+    font-family: Ubuntu,Segoe UI,system-ui,sans-serif;
+    font-size: 3rem;
+    line-height: 1.25;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 8px
+}
+
+.home_draw__description__vId5I {
+    font-family: Roboto,Segoe UI,system-ui,sans-serif;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: var(--neutral-400);
+    margin-bottom: 24px
+}
+
+.home_why__VOFzw {
+    background-color: var(--black)
+}
+
+    .home_why__VOFzw .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        min-height: 298px;
+        padding: 40px
+    }
+
+.home_why__content__dOeO7 {
+    justify-self: end;
+    max-width: 560px
+}
+
+.home_why__VOFzw .heading-2 {
+    color: var(--white);
+    margin-bottom: 8px
+}
+
+.home_why__VOFzw .paragraph {
+    color: var(--neutral-200);
+    margin-bottom: 8px
+}
+
+.home_why__VOFzw .link {
+    color: var(--white);
+    border-bottom: 3px solid var(--white)
+}
+
+.home_features__1D0r9 {
+    display: grid;
+    padding: 40px 0
+}
+
+.home_features__content__NqGRE {
+    max-width: 560px;
+    display: grid;
+    grid-gap: 16px;
+    gap: 16px
+}
+
+    .home_features__content__NqGRE .heading-3 {
+        text-align: right;
+        margin-bottom: 8px
+    }
+
+    .home_features__content__NqGRE .paragraph {
+        text-align: right
+    }
+
+.home_plans__EHLIW {
+    padding: 40px 0
+}
+
+    .home_plans__EHLIW .heading-2 {
+        text-align: center;
+        margin-bottom: 32px
+    }
+
+.home_plans__wrapper__aUVov {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.home_plans__card__XV3YM {
+    display: grid;
+    grid-gap: 20px;
+    gap: 20px;
+    background-color: var(--neutral-100);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px -2px rgba(0,0,0,.25);
+    width: 320px;
+    flex-shrink: 0
+}
+
+.home_plans__benefits_list__K4maY {
+    display: grid;
+    grid-gap: 16px;
+    gap: 16px
+}
+
+.home_plans__benefit__1MR6Q {
+    font-family: Roboto,Segoe UI,system-ui,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--neutral-500);
+    align-items: center;
+    display: flex;
+    gap: 8px
+}
+
+.home_plans__EHLIW footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center
+}
+
+.home_plans__price__2P5XC {
+    font-family: Ubuntu,Segoe UI,system-ui,sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.2
+}
+
+.home_call_to_action__YOusC {
+    background-color: var(--black);
+    padding: 20px 0
+}
+
+.home_call_to_action__call__X4iP4 {
+    font-family: Ubuntu,Segoe UI,system-ui,sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--white);
+    text-align: center;
+    max-width: 62ch;
+    margin: 0 auto 20px
+}
+
+.home_call_to_action__YOusC .button {
+    margin: 0 auto;
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    background-color: var(--white);
+    color: var(--black);
+    white-space: nowrap
+}
+
+@media (max-width:640px) {
+    .home_draw__title__16rTW {
+        font-size: 2.5rem
+    }
+
+    .home_draw__description__vId5I {
+        font-size: 1rem
+    }
+
+    .home_why__VOFzw .container {
+        padding: 20px
+    }
+
+    .home_plans__card__XV3YM {
+        padding: 16px;
+        gap: 12px;
+        min-width: 280px
+    }
+
+    .home_plans__benefits_list__K4maY {
+        gap: 4px
+    }
+
+    .home_plans__benefit__1MR6Q {
+        font-size: .875rem;
+        line-height: 1.5rem
+    }
+
+    .home_call_to_action__call__X4iP4, .home_plans__price__2P5XC {
+        font-size: 1rem;
+        line-height: 1.25
+    }
+}
+/*# sourceMappingURL=f927a000fff278be.css.map*/
