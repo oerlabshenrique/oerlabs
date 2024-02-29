@@ -5,7 +5,6 @@
       <h6>Desenvolvimento & Analise de Projetos</h6>
 
 
-<h6>Projeto: OER Labs<br>
 URL: https://oerlabs.com.br/ <br>
 Autor: Henrique Olivetti <br>
 Email: henrique@oerlabs.com.br<br> 
