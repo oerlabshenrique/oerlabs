@@ -2,7 +2,7 @@
 ## OER Labs
 
 [:octocat: Git da OER Labs](https://github.com/oerlabshenrique)
-      <h6>Sistema coleta as notas de um aluno e apresenta se ele está aprovado, reprovado ou de recuperação.</h6>
+      <h6>Desenvolvimento & Analise de Projetos</h6>
 
 
 <h6>Projeto: OER Labs<br>
