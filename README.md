@@ -1,7 +1,7 @@
 
 ## OER Labs
 
-[:octocat: Git da OER Labs](https://github.com/oerlabshenrique)
+[:octocat: Git OER Labs](https://github.com/oerlabshenrique)
       <h6>Desenvolvimento & Analise de Projetos</h6>
 
 
