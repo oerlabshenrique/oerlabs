@@ -35,11 +35,10 @@ Celular: 21 99523-8400</h6><br>
 </thead>
       
 <tbody>
-<tr><th scope='row'>Name</th><td>Abhishek Chaudhary</td></tr>
-<tr><th scope='row'>Born</th><td><time datetime="2002-01-11 08:00">11 January, 2002</time></td></tr>
-<tr><th scope='row'>Education</th><td>B.E.</td></tr>
-<tr><th scope='row'>Alma mater</th><td>Fr C Rodrigues institute of technology</td></tr>
-<tr><th scope='row'>Nationality</th><td>Indian</td></tr>
+<tr><th scope='row'>Name</th><td>Henrique Olivetti</td></tr>
+<tr><th scope='row'>Born</th><td><time datetime="">Rio de Janeiro</time></td></tr>
+<tr><th scope='row'>Education</th><td>Analise de Sistemas</td></tr>
+<tr><th scope='row'>University</th><td>Estácio de Sá</td></tr>
 <tr><th scope='row'>Occupation</th><td>Web Developer</td></tr>
 <tr><th scope='row'>Skills</th><td>HTML, CSS, JavaScript, Node.js, SEO</td></tr>
 </tbody>
